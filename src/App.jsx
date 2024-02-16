@@ -11,7 +11,7 @@ const App = () => {
       <Route path='/' element={<EmailTemplate />} />
       <Route path='/acceptance' element={<Acceptances />} />
       <Route path='/rejection' element={<Rejections />} />
-      <Route path='/schedule' element={<Schedule />} />
+      <Route path='/schedules' element={<Schedule />} />
     </Routes>
   );
 };
