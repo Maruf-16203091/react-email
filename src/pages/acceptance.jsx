@@ -8,7 +8,7 @@ const RaycastMagicLinkEmail = ({ magicLink }) => {
     <Container maxWidth="md" marginLeft="500">
       <Grid container spacing={2} justifyContent="center" alignItems="center">
         <Grid item xs={12} textAlign="center">
-          <img src={`${baseUrl}/static/raycast-logo.png`} width={48} height={48} alt="Raycast" />
+         
         </Grid>
         <Grid item xs={12}>
           <Typography variant="h4" align="center" style={{ marginTop: '48px', fontWeight: 'bold' }}>🪄 Your magic link</Typography>
