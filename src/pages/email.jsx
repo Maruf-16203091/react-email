@@ -16,7 +16,7 @@ const AirbnbReviewEmail = ({
     <Container maxWidth="md">
       <Grid container spacing={2} justifyContent="center" alignItems="center">
         <Grid item xs={12} textAlign="center">
-          <img src={`${baseUrl}/logo.png`} width="96" height="30" alt="Airbnb" />
+          
         </Grid>
         <Grid item xs={12} textAlign="center">
           <img src={authorImage} width="96" height="96" alt={authorName} style={{ borderRadius: '50%' }} />
