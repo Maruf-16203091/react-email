@@ -2,7 +2,7 @@ import React from 'react';
 import { Container, Typography, Button, Link, Divider, Grid } from '@mui/material';
 
 const NetlifyWelcomeEmail = ({ steps, links }) => {
-   
+    const baseUrl = "https://example.com";
 
   const defaultSteps = [
     {
@@ -54,7 +54,7 @@ const NetlifyWelcomeEmail = ({ steps, links }) => {
 
   return (
     <Container maxWidth="md">
-      
+      <img src={`${baseUrl}/static/netlify-logo.png`} width="184" height="75" alt="Netlify" style={{ margin: 'auto', marginTop: '20px', marginBottom: '20px' }} />
       <Container style={{ backgroundColor: 'white', padding: '45px' }}>
         <Typography variant="h4" align="center" gutterBottom>Welcome to Netlify</Typography>
         <Typography align="center" paragraph>
