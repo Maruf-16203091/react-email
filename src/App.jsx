@@ -1,15 +1,17 @@
 import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import EmailTemplate from './pages/email';
-import EmailTemplate1 from './pages/acceptance';
-import EmailTemplate2 from './pages/rejection';
+import Acceptance from './pages/acceptance';
+import Rejection from './pages/rejection';
+import Schedule from './pages/schedule';
 
 const App = () => {
   return (
     <Routes>
       <Route path='/' element={<EmailTemplate />} />
-      <Route path='/acceptance' element={<EmailTemplate1 />} />
-      <Route path='/rejection' element={<EmailTemplate2 />} />
+      <Route path='/acceptance' element={<Acceptance />} />
+      <Route path='/rejection' element={<Rejection />} />
+      <Route path='/schedule' element={<Schedule />} />
     </Routes>
   );
 };
